@@ -1,4 +1,4 @@
-name: Docker-build-with-evidence
+name: Masterclass-Docker-build-with-evidence
 
 on:
   [workflow_dispatch]
