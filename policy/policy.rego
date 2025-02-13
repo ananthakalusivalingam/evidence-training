@@ -21,7 +21,7 @@ found := [slug | slug := found_predicate_slugs[_]]
 not_found := [slug | slug := expected_predicate_slugs[_]; not found_predicate_slugs[slug]]
 
 approver := {slug |
-	some m
+    some m
 	slug := input.data.releaseBundleVersion.getVersion.evidenceConnection.edges[m].node.predicate.actor
 }
 
